@@ -1,0 +1,6 @@
+vendor/
+node_modules/
+wp/
+wp-content/
+dist/
+.phpunit.result.cache
