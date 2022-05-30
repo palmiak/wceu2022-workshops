@@ -13,7 +13,7 @@ require 'vendor/autoload.php';
 /**
  * Here should be a proper doc block.
  */
-require 'src/Class-wceu.php';
+require 'src/class-wceu.php';
 
 add_filter(
 	'wp_title',
