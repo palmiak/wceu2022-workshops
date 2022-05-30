@@ -1,5 +1,5 @@
 <?php
-require_once dirname( __FILE__, 2 ) . '/../src/Class-wceu.php';
+require_once dirname( __FILE__, 2 ) . '/../src/class-wceu.php';
 
 test(
 	'Add test',
