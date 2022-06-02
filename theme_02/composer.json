@@ -3,11 +3,7 @@
         "ci:phpcs": "./vendor/bin/phpcs .",
         "ci:phpstan": "./vendor/bin/phpstan analyze",
         "ci:unit": "./vendor/bin/pest --group=unit",
-        "ci:integration": "./vendor/bin/pest --group=integration",
-        "ci:cypress": [
-          "npm install --force",
-          "./node_modules/.bin/cypress run"
-        ]
+        "ci:integration": "./vendor/bin/pest --group=integration"
     },
     "require-dev": {
         "dingo-d/wp-pest-integration-test-setup": "^1.3",

@@ -13,7 +13,7 @@
 
 describe('Website e2e tests', () => {
   it('check h1', () => {
-    cy.visit('https://wpowls.co')
+    cy.visit( Cypress.env('host') )
     cy.get('h1').first().should('have.text', 'See what is happening in the WordPress space')
   });
 })
