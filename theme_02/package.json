@@ -1,18 +1,13 @@
 {
-  "scripts": {
-    "start-server": "npm start",
-    "cy:run": "cypress run",
-    "cy:ci": "start-server-and-test start-server http://localhost:3000 cy:run"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "laravel-mix": "^6.0.43",
     "mix-tailwindcss": "^1.3.0",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "cypress": "^9.7.0"
   },
   "dependencies": {
-    "cypress": "^9.7.0",
     "save-dev": "^0.0.1-security"
   }
 }
