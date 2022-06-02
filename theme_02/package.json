@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "ci:cypress": "npm install --force & cypress run"
+    "ci:cypress": "cypress run"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
