@@ -14,6 +14,6 @@
 describe('Website e2e tests', () => {
   it('check h1', () => {
     cy.visit( Cypress.env('host') )
-    cy.get('h1').first().should('have.text', 'See what is happening in the WordPress space')
+    cy.get('h1').first().should('have.text', 'Your Name')
   });
 })
