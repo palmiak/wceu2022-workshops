@@ -1,6 +1,6 @@
 <?php
 /**
- * Some docs
+ * Some docs here
  *
  * @package theme
  */
