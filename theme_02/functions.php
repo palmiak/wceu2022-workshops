@@ -15,6 +15,8 @@ require 'vendor/autoload.php';
  */
 require 'src/class-wceu.php';
 
+$timber = new Timber\Timber();
+
 add_filter(
 	'wp_title',
 	function() {
