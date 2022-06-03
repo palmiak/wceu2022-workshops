@@ -12,7 +12,7 @@ class Bad {
 	/**
 	 * Undocumented function
 	 *
-	 * @param int $a First var
+	 * @param int $a First var.
 	 * @param int $b Second var
 	 * @return int
 	 */
