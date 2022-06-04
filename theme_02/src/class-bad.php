@@ -13,7 +13,7 @@ class Bad {
 	 * Undocumented function
 	 *
 	 * @param int $a First var.
-	 * @param int $b Second var.
+	 * @param int $b Second var
 	 * @return int
 	 */
 	public function calc( $a = 1, $b = 15 ) {
