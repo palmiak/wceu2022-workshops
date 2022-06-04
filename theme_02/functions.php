@@ -20,6 +20,6 @@ $timber = new Timber\Timber();
 add_filter(
 	'wp_title',
 	function() {
-		return 'WCEU Rocks';
+		return 'WCEU is cool';
 	}
 );
