@@ -16,7 +16,7 @@ class Bad {
 	 * @param int $b Second var.
 	 * @return int
 	 */
-	public function calc( $a = '1', $b = 15 ) {
+	public function calc( $a = 1, $b = 15 ) {
 		return $a + $b;
 	}
 }
